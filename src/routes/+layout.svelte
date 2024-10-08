@@ -10,13 +10,10 @@
 <style>
 	#homeintro {
 		padding-top: 0px;
-		/* border: dashed; */
-		position:relative;
-		transform: translate(0%, 0%);
 	}
-	* {
+	/* * {
 		box-sizing: border-box;
-	}
+	} */
 
 	@font-face {
 		font-family: 'Fira Code', monospace;
@@ -37,10 +34,8 @@
 		width: 100vw;
 		height: 100%;
 		max-width: 900px;
-		/* margin: 0; */
 		display: flex;
 		flex-direction: column;
-		/* justify-content: space-between; */
 	}
 	
 
@@ -100,25 +95,4 @@
 			padding: 0 0px;
 		}
 	}
-
-	/* :global(a) {
-		text-decoration: none;
-	}
-
-	:global(a) {
-		text-decoration: none;
-	}
-
-	a {
-		color: rgb(0, 100, 200);
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration: underline;
-	}
-
-	a:visited {
-		color: rgb(0, 80, 160);
-	} */
 </style>

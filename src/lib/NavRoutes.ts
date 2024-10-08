@@ -7,10 +7,6 @@ const routes = [
 		href: '/about',
 		label: 'About'
 	},
-	{
-		href: '/projects',
-		label: 'Projects'
-	},
 ];
 
 export default routes;

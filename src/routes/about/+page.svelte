@@ -11,7 +11,7 @@
 	<main>
 		<h1>About</h1>
 		<div id="about-section">
-			<img src="linkedinpfp-original.png" alt="pfp">
+			<img src="gradphoto.png" alt="pfp">
 			<p>
 				I'm a recently graduated software engineer from the University of California, San Diego!
 				I've gained experience from past internships and projects in writing backend software (API development, 
@@ -94,17 +94,19 @@
 		font-weight: 700;
 		margin: 0 0 50px 0;
 		font-size: 36px;
-		text-align: start;
+		text-align: center
 	}
 
 
 	#about-section {
 		display:flex;
+		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
 		gap: 50px;
 
 	}
+
 	img {
 		border-radius: 50%;
 		width: 256px;
@@ -120,13 +122,22 @@
 
 	.list {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		gap: 30px;
 	}
 
-	@media (min-width: 900px) {
+	@media (max-width: 600px) {
 		.list {
 			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		#about-section {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#about-section p{
+			font-size: 14px;
 		}
 		main > h1 {
 			font-size: 48px;
