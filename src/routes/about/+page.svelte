@@ -13,12 +13,10 @@
 		<div id="about-section">
 			<img src="gradphoto.png" alt="pfp">
 			<p>
-				I'm a recently graduated software engineer from the University of California, San Diego!
-				I've gained experience from past internships and projects in writing backend software (API development, 
-				managing database/data pipelines).
-				I also enjoy doing projects in computer graphics and games! 
-				I love tackling new problems and learning new things, and am currently looking for an opportunity to
-				contribute to a team with the skills I've gained over the past couple of years.
+				I'm recent graduate from the University of California, San Diego with a degree in Computer Science.
+				Through internships and various projects, I have experience in backend software development, which includes API design and managing databases and pipelines.
+				In addition, I engage in more creative endeavors through computer graphics and game development.
+				I am currently seeking an opportunity where I can not only contribute my skills, but continue growing alongside a dynamic, forward-thinking team.
 				
 			</p>
 		</div>
