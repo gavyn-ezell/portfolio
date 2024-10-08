@@ -13,7 +13,7 @@
 		<div id="about-section">
 			<img src="gradphoto.png" alt="pfp">
 			<p>
-				I'm recent graduate from the University of California, San Diego with a degree in Computer Science.
+				I am a recent graduate from the University of California, San Diego with a degree in Computer Science.
 				Through internships and various projects, I have experience in backend software development, which includes API design and managing databases and pipelines.
 				In addition, I engage in more creative endeavors through computer graphics and game development.
 				I am currently seeking an opportunity where I can not only contribute my skills, but continue growing alongside a dynamic, forward-thinking team.
