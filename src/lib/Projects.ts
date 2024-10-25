@@ -1,5 +1,14 @@
 const projects = [
 	{
+		title: 'VR Drummer',
+		technologies: ['Unity', 'VR'],
+		description:
+			'Made a simple VR drummer app in Unity.',
+		url: 'https://www.youtube.com/watch?v=pO47Sb1C1MA',
+		code: 'https://github.com/gavyn-ezell/CSE165-FINALPROJECT',
+		img: 'vrdrummer.gif'
+	},
+	{
 		title: 'super smash bros. player tracker',
 		technologies: ['Express', 'Javascript', 'MySQL', 'GraphQL', 'Twilio'],
 		description:
@@ -34,15 +43,6 @@ const projects = [
 		url: 'https://www.youtube.com/watch?v=RAc_uTXVx88',
 		code: 'https://github.com/acmucsd-projects/sp23-hack-team-3',
 		img: 'eventify.gif'
-	},
-	{
-		title: 'VR Drummer',
-		technologies: ['Unity', 'VR'],
-		description:
-			'Made a simple VR drummer app in Unity.',
-		url: 'https://www.youtube.com/watch?v=pO47Sb1C1MA',
-		code: 'https://github.com/gavyn-ezell/CSE165-FINALPROJECT',
-		img: 'vrdrummer.gif'
 	},
 ];
 
