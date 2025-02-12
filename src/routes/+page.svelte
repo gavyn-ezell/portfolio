@@ -1,12 +1,16 @@
 <script>
 	import { Menu } from 'lucide-svelte';
+    import { media } from 'svelte-match-media';
+    import { onMount } from 'svelte';
 
     let mobileNavState = $state("start");
-    const mediaQuery = window.matchMedia('(width >= 640px)')
-    mediaQuery.addListener(()=>{
-        mobileNavState = "start"
-    })
+    onMount(() => {
 
+        const mediaQuery = window.matchMedia('(width >= 640px)')
+        mediaQuery.addListener(()=>{
+            mobileNavState = "start"
+        })
+    });
 	
     const NavLinks = ['About', 'Experience', 'Projects'];
 	let activeLink = $state(0);
