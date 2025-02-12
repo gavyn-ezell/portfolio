@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+#navLinks > li {
+	margin-bottom: 16px;
+	color: #ffffffaa;
+}
+#navLinks > li:hover {
+	color: #ffffffcc;
+}
+
+.activeLink {
+	color: #ffffffff;
+}
+
+.start {
+    @media (width < 640px) {
+        height: 96px;
+    }
+}
+
+@keyframes open {
+    from {height: 96px}
+    to {background-color: 250px}
+}
+
+@keyframes close{
+    from {height: 250px}
+    to {background-color: 96px}
+}
+
+.open {
+    @media (width < 640px) {
+        height:250px;
+        animation-name: open;
+        animation-duration: 0.4s;
+    }
+}
+
+.closed{
+    @media (width < 640px) {
+        height: 96px;
+        animation-name: close;
+        animation-duration: 0.4s;
+    }
+}
