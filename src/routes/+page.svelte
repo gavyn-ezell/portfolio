@@ -34,7 +34,7 @@
             items-start justify-between gap-4
             overflow-hidden
             bg-[var(--main-color)] py-4
-            sm:static sm:min-h-[440px]
+            sm:static sm:max-h-screen
             sm:w-[270px] sm:min-w-[270px] sm:items-center sm:justify-center sm:gap-4"
 	>
 		<div class="flex w-full flex-row justify-between px-4 py-4 sm:justify-center">
@@ -82,9 +82,9 @@
 			{/each}
 		</ul>
 	</nav>
-	<div class="relative mt-[96px] mr-auto ml-auto h-screen min-h-screen w-full overflow-scroll sm:mt-0 sm:py-32">
-		<section class="absolute top-1/2 -translate-y-1/2 oswald-base flex w-full sm:max-w-[1280px] flex-col p-8 pl-2">
-			<div class="m-4 ml-8">
+	<div class="w-full h-screen overflow-scroll"> <!--border border-red-500 -->
+		<section id="about" class="relative flex oswald-base w-full h-screen sm:max-w-[1280px] flex-col border-b border-gray-300"> <!--border border-blue-500 -->
+			<div class="absolute top-1/2 -translate-y-1/2 ml-6"> <!--border border-green-500 -->
 				<h3 class="mb-4 text-[1.5rem] leading-[1.2rem]">SOFTWARE ENGINEER</h3>
 				<h1 class="px-0 text-[4.5rem] leading-[4.5rem]">
 					GAVYN <span class="text-[var(--main-color)]">EZELL</span>
@@ -115,6 +115,42 @@
                 </div>
 			</div>
 		</section>
+
+        <section id="experience" class="relative flex oswald-base w-full h-screen sm:max-w-[1280px] flex-col"> <!--border border-blue-500 -->
+			<div class="absolute top-1/2 -translate-y-1/2 ml-6"> <!--border border-green-500 -->
+				<h3 class="mb-4 text-[1.5rem] leading-[1.2rem]">SOFTWARE ENGINEER</h3>
+				<h1 class="px-0 text-[4.5rem] leading-[4.5rem]">
+					GAVYN <span class="text-[var(--main-color)]">EZELL</span>
+				</h1>
+				<div class="pl-[2px] text-[1.35rem] leading-[3rem] font-normal mb-5">
+					Seattle, WA ·
+					<a class="text-[var(--main-color-darker)]" href="mailto:ezellgavyn@gmail.com"
+						>EZELLGAVYN@GMAIL.COM</a
+					>
+				</div>
+				<p class="text-[var(--main-text-color)] font-normal w-3/4 text-xl mb-12">
+					I am a passionate software engineer who loves to collaborate with others
+					and solve fun and interesting problems through tech. From internships, various projects, and coursework, I've gained experience writing full stack software, with a backend focus.
+				</p>
+
+                <a href="GavynEzellResume.pdf" target="_blank" class="text-[var(--main-color)] font-light text-2xl block mb-4">View Resume as PDF</a>
+                <div class="flex flex-row gap-4">
+                    <div class="p-2 bg border-4 border-[#343A40] bg-[#343A40] rounded-full inline-flex">
+                        <a href="https://www.linkedin.com/in/gavyn-ezell/" target="_blank">
+                            <Linkedin fill="white" class="border" color="white" size="36"/>
+                        </a>
+                    </div>
+                    <div class="p-2 bg border-4 border-[#343A40] bg-[#343A40] rounded-full inline-flex">
+                        <a href="https://github.com/gavyn-ezell" target="_blank">
+                            <Github fill="white" class="border" color="white" size="36"/>
+                        </a>
+                    </div>
+                </div>
+			</div>
+		</section>
+
+        
+        
 	</div>
 </div>
 
