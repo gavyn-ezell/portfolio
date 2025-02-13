@@ -1,5 +1,5 @@
 <script>
-	import { Menu } from 'lucide-svelte';
+	import { Menu, Github, Linkedin } from 'lucide-svelte';
 	import { media } from 'svelte-match-media';
 	import { onMount } from 'svelte';
 
@@ -29,7 +29,7 @@
 
 <div class="flex flex-col sm:flex-row">
 	<nav
-		class="fixed top-0 z-[100] {mobileNavState}
+		class="oswald-base fixed top-0 z-[100] {mobileNavState}
             sm:h-vh flex w-full flex-col
             items-start justify-between gap-4
             overflow-hidden
@@ -82,8 +82,8 @@
 			{/each}
 		</ul>
 	</nav>
-	<div class="mt-[96px] mr-auto ml-auto h-screen min-h-screen w-full overflow-scroll sm:mt-0 sm:py-32">
-		<section class="oswald-base flex w-full flex-col p-8 pl-2 border-b border-gray-400">
+	<div class="relative mt-[96px] mr-auto ml-auto h-screen min-h-screen w-full overflow-scroll sm:mt-0 sm:py-32">
+		<section class="absolute top-1/2 -translate-y-1/2 oswald-base flex w-full sm:max-w-[1280px] flex-col p-8 pl-2">
 			<div class="m-4 ml-8">
 				<h3 class="mb-4 text-[1.5rem] leading-[1.2rem]">SOFTWARE ENGINEER</h3>
 				<h1 class="px-0 text-[4.5rem] leading-[4.5rem]">
@@ -100,7 +100,19 @@
 					and solve fun and interesting problems through tech. From internships, various projects, and coursework, I've gained experience writing full stack software, with a backend focus.
 				</p>
 
-                <a href="GavynEzellResume.pdf" target="_blank" class="text-[var(--main-color)] font-light text-2xl">View Resume as PDF</a>
+                <a href="GavynEzellResume.pdf" target="_blank" class="text-[var(--main-color)] font-light text-2xl block mb-4">View Resume as PDF</a>
+                <div class="flex flex-row gap-4">
+                    <div class="p-2 bg border-4 border-[#343A40] bg-[#343A40] rounded-full inline-flex">
+                        <a href="https://www.linkedin.com/in/gavyn-ezell/" target="_blank">
+                            <Linkedin fill="white" class="border" color="white" size="36"/>
+                        </a>
+                    </div>
+                    <div class="p-2 bg border-4 border-[#343A40] bg-[#343A40] rounded-full inline-flex">
+                        <a href="https://github.com/gavyn-ezell" target="_blank">
+                            <Github fill="white" class="border" color="white" size="36"/>
+                        </a>
+                    </div>
+                </div>
 			</div>
 		</section>
 	</div>

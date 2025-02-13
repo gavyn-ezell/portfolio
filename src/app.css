@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+html, body {
+    background-color: white;
+}
+
 @theme {
 	--main-color: #7d9b70;
 	--main-color-darker: #5e7056;
