@@ -1,11 +1,26 @@
 @import 'tailwindcss';
 
+@theme {
+	--main-color: #7d9b70;
+	--main-color-darker: #5e7056;
+    --main-text-color: #7E8389;
+}
+
+.oswald-base {
+	font-family: 'Oswald', serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	color: #343a40;
+}
+
 #navLinks > li {
 	margin-bottom: 16px;
-	color: #ffffffaa;
+	font-weight: 500;
+	color: #000000bb;
 }
 #navLinks > li:hover {
-	color: #ffffffcc;
+	color: #ffffffbb;
 }
 
 .activeLink {
@@ -13,33 +28,41 @@
 }
 
 .start {
-    @media (width < 640px) {
-        height: 96px;
-    }
+	@media (width < 640px) {
+		height: 96px;
+	}
 }
 
 @keyframes open {
-    from {height: 96px}
-    to {background-color: 250px}
+	from {
+		height: 96px;
+	}
+	to {
+		background-color: 250px;
+	}
 }
 
-@keyframes close{
-    from {height: 250px}
-    to {background-color: 96px}
+@keyframes close {
+	from {
+		height: 250px;
+	}
+	to {
+		background-color: 96px;
+	}
 }
 
 .open {
-    @media (width < 640px) {
-        height:250px;
-        animation-name: open;
-        animation-duration: 0.4s;
-    }
+	@media (width < 640px) {
+		height: 250px;
+		animation-name: open;
+		animation-duration: 0.4s;
+	}
 }
 
-.closed{
-    @media (width < 640px) {
-        height: 96px;
-        animation-name: close;
-        animation-duration: 0.4s;
-    }
+.closed {
+	@media (width < 640px) {
+		height: 96px;
+		animation-name: close;
+		animation-duration: 0.4s;
+	}
 }
