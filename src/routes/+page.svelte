@@ -2,7 +2,7 @@
 
 	import { Menu, Github, Linkedin } from 'lucide-svelte';
 	import { scrollY } from 'svelte/reactivity/window';
-	import { media } from 'svelte-match-media';
+	// import { media } from 'svelte-match-media';
 	import { onMount } from 'svelte';
 	import Projects from '$lib/index'
 	import ProjectCard from '$lib/ProjectCard.svelte';
