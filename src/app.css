@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 
-html, body {
+body {
+	padding: 0;
+	margin: 0;
     background-color: white;
 }
 
@@ -16,6 +18,31 @@ html, body {
 	font-weight: 700;
 	font-style: normal;
 	color: #343a40;
+}
+.chromefix {
+	transform: translate(0,-50%);
+}
+
+.experience-list {
+	margin-bottom: 96px;
+	color: var(--main-text-color);
+}
+
+.experience-list li {
+	list-style-type:disc;
+	width: 90%;
+	margin-left: 22px;
+	margin-top: 14px;
+	font-weight: 300;
+	font-size: 1.4rem;
+	margin-bottom: 12px;
+}
+.skill-list {
+	margin-bottom: 60px;
+}
+.skill-list li {
+	display: inline;
+	margin-right: 20px;
 }
 
 #navLinks > li {
@@ -42,13 +69,13 @@ html, body {
 		height: 96px;
 	}
 	to {
-		background-color: 250px;
+		background-color: 350px;
 	}
 }
 
 @keyframes close {
 	from {
-		height: 250px;
+		height: 350px;
 	}
 	to {
 		background-color: 96px;
@@ -57,7 +84,7 @@ html, body {
 
 .open {
 	@media (width < 640px) {
-		height: 250px;
+		height: 350px;
 		animation-name: open;
 		animation-duration: 0.4s;
 	}
