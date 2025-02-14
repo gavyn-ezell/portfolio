@@ -179,7 +179,7 @@
                 </div>
 				<ul class="experience-list">
 					<li>
-						Teaching over 20 students foundational programming concepts and basic software practices through JavaScript, HTML, CSS, and Python.
+						Teaching over 20 students foundational programming and software concepts through JavaScript, HTML, and CSS.
 					</li>
 					<li>
 						Collaborating with other instructors to adapt and teach curriculum from corporate, to address the needs of different students and classes.
@@ -200,11 +200,11 @@
                 </div>
 				<ul class="experience-list">
 					<li>
-						Worked with a senior engineer to implement a standardized event streaming protocol in Apache Kafka, 
+						Worked with a senior engineer to implement a standardized event streaming protocol using Apache Kafka, 
 						meant to serve machine learning and business intelligence teams for downstream analytics.
 					</li>
 					<li>
-						Devloped a service named Eventer using FastAPI, used to publish and subscribe to registered events 
+						Developed a service named Eventer using FastAPI, used to publish and subscribe to registered events 
 						within GoFundMe's main microservices, which included user and fundraising activity.
 					</li>
 					<li>
